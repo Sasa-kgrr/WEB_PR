@@ -1,0 +1,175 @@
+.dialog {
+    border: 2px solid #474e4e;
+    height: 500px;
+    overflow-y: auto;
+    margin: 20px auto;
+    padding: 15px;
+    width: 80%;
+    max-width: 800px;
+    /* border-radius: 20px; */
+    background-color: rgb(229, 235, 240, 0.7);
+    display: flex;
+    flex-direction: column; 
+}
+/* Стилизация скроллбара */
+.dialog::-webkit-scrollbar {
+    width: 8px;
+}
+
+.dialog::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.dialog::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.dialog::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.avatar {
+    border-radius: 100px;
+    height: 60px;
+    width:60px;
+}
+
+.message_from {
+    background-color: #d2dada;
+    display: flex;
+    /* justify-content: right; */
+    border-radius: 30px;
+    text-align: right;
+    margin-top: 10px;
+    border: 0.5px solid #474e4e;
+    width: fit-content;
+    padding-left: 20px;
+    margin-left: auto;
+}
+
+.message_to {
+    display: flex;
+    background-color: #d2dada;
+    flex-direction: row-reverse;
+    border-radius: 30px;
+    justify-content: left;
+    margin-top: 10px;
+    padding-right: 20px;
+    border: 0.5px solid #6c7474;
+    width: fit-content;
+    margin-right: auto;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+
+.time_mes {
+    color: rgb(50, 50, 85);
+    font-size: 12px;
+    
+}
+
+.avat_pers {
+    border-radius: 100px;
+    float:left;
+    width:30%;
+    height: auto;
+    margin-left: 10px;
+
+}
+
+.info_pers {
+    background-color: rgb(197, 167, 218);
+    border-radius: 20px;
+    font-size: 20px;
+    width: 60%;
+    float:right;
+    height: 280px;
+    margin-left: 20px;
+    margin-right: 10px;
+    box-shadow: 0 15px 10px 0 rgba(0,0,0,0.2);
+}
+
+.personal {
+    margin-top: 200px;
+    display: flex;
+    width: 700px;
+    background-color: #d2dada;
+    height: 350px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url("bgr.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+.mini_message{
+    background-color: rgb(243, 246, 248, 0.5);
+    width: fit-content;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px;
+    display:flex;
+    margin-bottom: 20px;
+}
+
+.exit {
+    margin-left: 10px;
+    width:40px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.exit a{
+    text-decoration: none;
+}
+
+.message_image {
+    max-width: 200px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.open_img {
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.send_button {
+    border-radius: 20px;
+    background-color: rgb(205, 232, 228);
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.head_dialog {
+    background-color: #d2dada;
+    border-radius: 20px;
+    width: 800px;
+}
+
+h1 {
+    padding:10px;
+}
+
+.bottom_dialog {
+    display:flex;
+    width: 500px;
+    padding-left: 20px;
+}

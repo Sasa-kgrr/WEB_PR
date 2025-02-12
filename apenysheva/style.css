@@ -1,0 +1,181 @@
+.errorCl {
+    border-bottom: 2px solid rgb(224, 47, 47);
+}
+
+.errorPAS{
+    border: 5px solid red;
+}
+
+.error_div{
+    background-color: rgb(214, 137, 137);
+    border-radius: 30px;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-image: url("bgr.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.container{
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.header{
+    color: aliceblue;
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.button {
+    padding: 10px;
+    background: white;
+    color: rgb(5, 0, 0);
+    border: none;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+input {
+    margin-top: 8px;
+    width: 200px;
+    height:40px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+    color: white;
+
+}
+
+.input_file{
+    border:none;
+}
+
+::placeholder{
+    color: white;
+}
+
+select {
+    margin-top: 15px;
+    width: 200px;
+    height: 30px;
+}
+
+.msg_error {
+    color: white;
+}
+
+table {
+    margin: auto;
+    border-collapse: separate; /* Раздельные границы */
+    border-spacing: 2px; /* Просвет между ячейками */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    background-color: transparent; /* Прозрачный фон таблицы */
+}
+
+th, td {
+    padding: 5px;
+    background-color: rgb(255, 255, 255); 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 4px; 
+    text-align: center; 
+}
+
+th {
+    background-color: rgb(202, 235, 235); 
+    font-weight: bold;
+    color: rgb(0, 51, 51); 
+}
+
+tr:nth-child(even) {
+    background-color: rgba(242, 242, 242, 0.8);
+}
+
+tr:hover {
+    background-color: rgba(200, 200, 200, 0.3);
+    transition: all 0.3s ease;
+}
+
+td img {
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+td img:hover {
+    transform: scale(1.1);
+}
+.mini_message{
+    background-color: rgb(243, 246, 248, 0.5);
+    width: fit-content;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px;
+    display:flex;
+    margin-bottom: 20px;
+}
+
+.exit {
+    margin-left: 10px;
+    width:40px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.exit a{
+    text-decoration: none;
+}
+
+.no_filtr{
+    
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.confirm_delete {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    text-align: center;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.confirm-button {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel-button {
+    background-color: #ccc;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.delete_button {
+    background-color: #f28787;
+    border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
